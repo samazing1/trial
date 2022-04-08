@@ -1,0 +1,6 @@
+#!/bin/bash
+
+make
+./cal.exe > cal.out
+
+./cal.exe "s" | fgrep -c "s"
